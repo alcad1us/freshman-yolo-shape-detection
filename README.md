@@ -147,8 +147,8 @@ This project advanced to the **final stage** of the TEKNOFEST
 Unmanned Underwater Systems Competition (**state-recognized finalist**).
 
 You can find the official finalist certificate here:
-[Finalist Certificate](docs/teknofest_finalist_certificate.pdf)
-[Finalist Certificate 2](docs/Certificate of Participation _ T3 KYS.pdf)
+[Finalist Certificate](docs/teknofest_finalist_certificate2.pdf)
+[Finalist Certificate2](docs/teknofest_finalist_certificate.pdf)
 
 ---
 
