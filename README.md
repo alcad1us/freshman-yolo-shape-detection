@@ -42,7 +42,7 @@ Although simple, this method proved to be **robust under constrained conditions*
 The system detects objects, calculates their center and captures snapshots only when alignment conditions are met.
 
 <p align="center">
-  <img src="detection_demo1.png" width="600">
+  <img src="assets/detection_demo1.png" width="600">
 </p>
 
 *(Bounding box detection and center alignment visualization)*
