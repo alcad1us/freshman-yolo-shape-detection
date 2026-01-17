@@ -52,7 +52,7 @@ only when alignment conditions are met.
   <img src="assets/detection_demo1.png" width="600">
 </p>
 
-*(Bounding box detection and center alignment visualization)*
+(Bounding box detection and center alignment visualization)
 
 ---
 
@@ -61,6 +61,25 @@ only when alignment conditions are met.
 A short demonstration video showing the detection and centering logic is available below:
 
 [▶ Watch demo video](assets/output_video_longer.mp4)
+
+---
+
+## How to Run
+
+1. Install dependencies:
+
+    pip install -r requirements.txt
+
+2. Place your input video in the project root directory  
+   (or update the VIDEO_PATH variable in the code)
+
+3. Run the main script:
+
+    python underwater_object_detection.py
+
+Generated outputs:
+- Processed output video
+- Snapshot images captured for each detected class when center alignment conditions are met
 
 ---
 
@@ -127,7 +146,7 @@ If I were to revisit this project today, I would focus on:
 This project advanced to the **final stage** of the TEKNOFEST
 Unmanned Underwater Systems Competition (**state-recognized finalist**).
 
-The official finalist certificate is available in the `/docs` directory.
+The official finalist certificate is available in the /docs directory.
 
 ---
 
