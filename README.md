@@ -146,7 +146,8 @@ If I were to revisit this project today, I would focus on:
 This project advanced to the **final stage** of the TEKNOFEST
 Unmanned Underwater Systems Competition (**state-recognized finalist**).
 
-The official finalist certificate is available in the '/docs' directory.
+You can find the official finalist certificate here:
+[Finalist Certificate](docs/teknofest_finalist_certificate.pdf)
 
 ---
 
