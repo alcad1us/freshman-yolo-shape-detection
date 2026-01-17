@@ -1,18 +1,22 @@
 # freshman-yolo-shape-detection
 
-Early YOLO-based object detection and target-centering system developed under severe hardware constraints for our TEKNOFEST Unmanned Underwater Systems Competition Advanced Category.
+Early YOLO-based object detection and target-centering system developed under severe hardware constraints
+for the **TEKNOFEST Unmanned Underwater Systems Competition (Advanced Category)**.
 
 # Freshman YOLO Shape Detection Project
 
-⚠️ This project was developed during my **freshman year (1st year)** as a part of a TEKNOFEST-related study. The goal was not to build a production-ready vision system, but to explore object detection and target-centering concepts under **severe hardware constraints**.
+⚠️ This project was developed during my **freshman year (1st year)** as part of a TEKNOFEST competition study.
+The goal was not to build a production-ready vision system, but to explore object detection and
+target-centering concepts for **underwater robotic systems** under **severe hardware constraints**.
 
 ---
 
 ## Project Overview
 
-This project uses a YOLO-based(YOLOv8-tiny) object detection model to detect geometric shapes in a simulated underwater pool environment.
+This project uses a YOLO-based (YOLOv8-tiny) object detection model to detect geometric shapes
+in a **simulated underwater pool environment**.
 
-Instead of performing full  clasification continously, the system focuses on:
+Instead of performing full classification continuously, the system focuses on:
 - Detecting objects in the frame
 - Calculating their center position
 - Waiting until the object aligns with the image center
@@ -24,22 +28,25 @@ This approach was chosen due to limited onboard computational resources.
 
 ## Motivation & System Design
 
-The onboard vehicle hardware(NVIDIA Jetson Nano and STM32F407G-DISC1) was only capable of running object detection at approximately **3 FPS**, which made real-time classification unreliable.
+The onboard vehicle hardware (**NVIDIA Jetson Nano + STM32F407G-DISC1**) was only capable of running
+object detection at approximately **3 FPS**, which made real-time classification unreliable.
 
 To overcome this limitation, a lightweight strategy was implemented:
 
-- Continous detection with minimal processing
+- Continuous detection with minimal processing
 - Center-based target selection
 - Snapshot capture only when alignment conditions are met
 - Offline labeling and further processing on a more capable system (Jetson Nano)
 
-Although simple, this method proved to be **robust under constrained conditions** and significantly improved overall detection reliability.
+Although simple, this method proved to be **robust under constrained conditions**
+and significantly improved overall detection reliability.
 
 ---
 
 ## Detection and Target Centering
 
-The system detects objects, calculates their center and captures snapshots only when alignment conditions are met.
+The system detects objects, calculates their center, and captures snapshots
+only when alignment conditions are met.
 
 <p align="center">
   <img src="assets/detection_demo1.png" width="600">
@@ -48,7 +55,6 @@ The system detects objects, calculates their center and captures snapshots only 
 *(Bounding box detection and center alignment visualization)*
 
 ---
-
 
 ## Demo Video
 
@@ -77,8 +83,8 @@ The model was trained to detect the following geometric shapes:
 
 ## Performance Notes
 
-- Development PC: ~24 FPS
-- Onboard vehicle system: ~3 FPS
+- Development PC: ~24 FPS  
+- Onboard vehicle system: ~3 FPS  
 
 Due to these limitations, real-time classification was avoided in favor of snapshot-based processing.
 
@@ -88,16 +94,16 @@ Due to these limitations, real-time classification was avoided in favor of snaps
 
 - Original training dataset was not preserved
 - Training pipeline is not fully reproducible
-- Testing was performed only in a simulated environment(Made by my teammate on blender)
-- Detecting accuracy was not fully optimized
+- Testing was performed only in a simulated environment (created by a teammate using Blender)
+- Detection accuracy was not fully optimized
 
 These limitations are expected given the scope and timeframe of the project.
 
 ---
 
-## What I Would Improve Today?
+## What I Would Improve Today
 
-If i were to revisit this project today, i would focus on:
+If I were to revisit this project today, I would focus on:
 
 - Better dataset collection and versioning
 - Explicit class label visualization for all detections
@@ -118,10 +124,17 @@ If i were to revisit this project today, i would focus on:
 
 ## Competition Note
 
-This project was developed as a part of a TEKNOFEST competition entry and advanced to the **final stage**.
+This project advanced to the **final stage** of the TEKNOFEST
+Unmanned Underwater Systems Competition (**state-recognized finalist**).
 
-Official finalist documentation is available in this repository.
+The official finalist certificate is available in the `/docs` directory.
+
+---
 
 ## Disclaimer
 
-This repository represents an **early-stage learning project** and doest not reflect my technical level. It is shared for documentation and educational purposes.
+This repository represents an **early-stage learning project** and does not reflect my current technical level.
+It is shared for documentation and educational purposes.
+
+The included YOLO model and code are provided under the MIT License.
+Model weights are included for demonstration purposes only.
