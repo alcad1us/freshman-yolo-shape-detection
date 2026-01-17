@@ -54,7 +54,7 @@ The system detects objects, calculates their center and captures snapshots only 
 
 A short demonstration video showing the detection and centering logic is available below:
 
-[▶ Watch demo video](assets/detection_demo.mp4)
+[▶ Watch demo video](assets/output_video.mp4)
 
 ---
 
