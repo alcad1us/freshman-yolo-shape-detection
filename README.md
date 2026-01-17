@@ -145,10 +145,10 @@ If I were to revisit this project today, I would focus on:
 
 This project advanced to the **final stage** of the TEKNOFEST
 Unmanned Underwater Systems Competition (**state-recognized finalist**).
+September,2024.
 
 You can find the official finalist certificate here:
-[Finalist Certificate](docs/teknofest_finalist_certificate2.pdf)
-
+[Finalist Certificate](docs/teknofest_finalist_certificate2.pdf) 
 [Finalist Certificate 2](docs/teknofest_finalist_certificate.pdf)
 
 ---
