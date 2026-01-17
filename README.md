@@ -148,6 +148,7 @@ Unmanned Underwater Systems Competition (**state-recognized finalist**).
 
 You can find the official finalist certificate here:
 [Finalist Certificate](docs/teknofest_finalist_certificate.pdf)
+[Finalist Certificate 2](docs/Certificate of Participation _ T3 KYS.pdf)
 
 ---
 
